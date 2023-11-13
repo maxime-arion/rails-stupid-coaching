@@ -1,4 +1,6 @@
 class QuestionsController < ApplicationController
+  def home
+  end
   def ask
     # Tu peux définir des variables d'instance ici si nécessaire
   end
