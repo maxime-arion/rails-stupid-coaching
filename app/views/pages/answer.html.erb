@@ -1,0 +1,10 @@
+<!-- app/views/questions/answer.html.erb -->
+<div class="container mt-4">
+  <h1>Your Question</h1>
+  <p><strong>Question:</strong> <%= @question %></p>
+
+  <h2>Coach's Answer</h2>
+  <p><strong>Answer:</strong> <%= @answer %></p>
+
+  <%= link_to "Ask another question", ask_path, class: "btn btn-primary" %>
+</div>
